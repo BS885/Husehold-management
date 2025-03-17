@@ -22,7 +22,7 @@ namespace SmartManagement.Core.services
 
         Task<IEnumerable<ExpenseAndIncome>> GetExpensesByCategoryAsync(CategoriesIncomeAndExpense category);
 
-        Task<IEnumerable<ExpenseAndIncome>> GetExpensesByDateRangeAsync(DateTime startDate, DateTime endDate);
+        Task<IEnumerable<ExpenseAndIncome>> GetExpensesByDateRangeAsync(DateTime startDate, DateTime endDate, int userID);
 
     }
 }

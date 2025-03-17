@@ -22,3 +22,4 @@ C:\Users\user1\Documents\תכנות\שנה ב'\פרויקט Fullstack\household-
 C:\Users\user1\Documents\תכנות\שנה ב'\פרויקט Fullstack\household-management\API\SmartManagement.Api\SmartManagement.Core\obj\Debug\net9.0\refint\SmartManagement.Core.dll
 C:\Users\user1\Documents\תכנות\שנה ב'\פרויקט Fullstack\household-management\API\SmartManagement.Api\SmartManagement.Core\obj\Debug\net9.0\SmartManagement.Core.pdb
 C:\Users\user1\Documents\תכנות\שנה ב'\פרויקט Fullstack\household-management\API\SmartManagement.Api\SmartManagement.Core\obj\Debug\net9.0\ref\SmartManagement.Core.dll
+C:\Users\user1\Documents\תכנות\שנה ב'\פרויקט Fullstack\household-management\API\SmartManagement.Api\SmartManagement.Core\obj\Debug\net9.0\SmartManagement.Core.csproj.AssemblyReference.cache

@@ -132,11 +132,11 @@ namespace SmartManagement.Service.Services
             }
         }
 
-        public async Task<IEnumerable<ExpenseAndIncome>> GetExpensesByDateRangeAsync(DateTime startDate, DateTime endDate)
+        public async Task<IEnumerable<ExpenseAndIncome>> GetExpensesByDateRangeAsync(DateTime startDate, DateTime endDate,int userID)
         {
             try
             {
-                var expenses = await _expenseRepository.GetExpensesByDateRangeAsync(startDate, endDate);
+                var expenses = await _expenseRepository.GetExpensesByDateRangeAsync(startDate, endDate, userID);
                 _logger.LogInformation($"get expenses by date range {startDate} - {endDate}");
                 return expenses;
             }
