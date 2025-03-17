@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fl6+cvC2aH3/WoagleNUqMBHL2aKv07h8ZqWKCsQkzM=",
+  "Source": "SmartManagement.Api",
+  "BasePath": "_content/SmartManagement.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
