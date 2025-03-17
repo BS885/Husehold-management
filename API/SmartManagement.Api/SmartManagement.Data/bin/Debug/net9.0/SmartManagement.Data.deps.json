@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "SmartManagement.Data/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.415.18",
           "Microsoft.EntityFrameworkCore": "8.0.13",
           "Microsoft.EntityFrameworkCore.Abstractions": "9.0.3",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.3",
@@ -15,6 +16,25 @@
         },
         "runtime": {
           "SmartManagement.Data.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.19": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.19"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.18": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.19"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.18"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore/8.0.13": {
@@ -190,6 +210,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QNxPperAlN9LyZQ3XwQtGI3I3XeULucGzqI3PngR6jxNvwJTD++YyklL/6o2Q3CRfVmnj7noXh+nhiXuQbA/Ig==",
+      "path": "awssdk.core/3.7.402.19",
+      "hashPath": "awssdk.core.3.7.402.19.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lTq+XOORliPaWETAOrsbFFaNu4Zjtd0YFrhBHQC+rIyK/yvTw0ma+v3Wl59thkNSR7wcTxcuMuqFfMaxPlQcag==",
+      "path": "awssdk.s3/3.7.415.18",
+      "hashPath": "awssdk.s3.3.7.415.18.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.13": {
       "type": "package",

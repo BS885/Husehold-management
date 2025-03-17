@@ -12,6 +12,11 @@ namespace SmartManagement.Core.Repositories
     public interface IUserRepository
     {
         User GetUserByEmail(string email);
+
         void AddUser(User user);
+
+        User GetUserById(int id);
+
+        void UpdateUser(User user);
     }
 }

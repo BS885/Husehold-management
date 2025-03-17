@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj": {}
+    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj",
         "projectName": "SmartManagement.Api",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Api\\SmartManagement.Api.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Api\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
               },
-              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj"
               },
-              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj"
               }
             }
           }
@@ -60,9 +60,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.400, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[6.0.0-preview.4.21253.5, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -98,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj",
         "projectName": "SmartManagement.Core",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -143,6 +151,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -163,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj",
         "projectName": "SmartManagement.Data",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\SmartManagement.Data.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Data\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -191,8 +205,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
               }
             }
           }
@@ -213,6 +227,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.415.18, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -246,14 +264,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj": {
+    "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj",
         "projectName": "SmartManagement.Service",
-        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\SmartManagement.Service.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Service\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,8 +292,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
-                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
+              "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\תכנות\\שנה ב'\\פרויקט Fullstack\\household-management\\API\\SmartManagement.Api\\SmartManagement.Core\\SmartManagement.Core.csproj"
               }
             }
           }
@@ -299,6 +317,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [

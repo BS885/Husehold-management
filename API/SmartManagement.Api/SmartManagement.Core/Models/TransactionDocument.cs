@@ -16,5 +16,6 @@ namespace SmartManagement.Core.Models
         public string FileUrl { get; set; }
         public FileType FileType { get; set; }
         public string FileName { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

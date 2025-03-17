@@ -24,8 +24,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
+        "Name": "userRegister",
         "Type": "SmartManagement.Core.DTOs.RegisterUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartManagement.Api.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProfileDto",
+        "Type": "SmartManagement.Core.DTOs.UpdateUserDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

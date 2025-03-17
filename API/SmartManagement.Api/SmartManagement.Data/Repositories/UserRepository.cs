@@ -28,13 +28,25 @@ namespace SmartManagement.Data.Repositories
             return user;
         }
 
+        public User GetUserById(int id)
+        {
+            var user = _context.Users.FirstOrDefault(u=>u.UserId == id);
+            return user;
+        }
 
         public void AddUser(User user)
         {
-            
+
             _context.Users.Add(user);
-            
+
             _context.SaveChanges();
         }
+
+        public void UpdateUser(User user)
+        {
+            _context.Users.Update(user);
+            _context.SaveChanges();
+        }
+
     }
 }

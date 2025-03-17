@@ -13,10 +13,10 @@ namespace SmartManagement.Core.Models
         public DateTime Date { get; set; }
         public CategoriesIncomeAndExpense Category { get; set; }
         public int IdUser { get; set; }
-        public int IdFile { get; set; }
+        public int? IdFile { get; set; }
         public string Description { get; set; }
         public TransactionType TypeTransaction { get; set; }
         public decimal Sum { get; set; }
-        public int FixedExpenseAndIncomeId { get; set; }
+        public int? FixedExpenseAndIncomeId { get; set; }
     }
 }

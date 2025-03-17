@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92ba6df9177f10bc93a4fd955efd603fdb53d882")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b93c625c37f2e694c06dca759e2544b5ff1679b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

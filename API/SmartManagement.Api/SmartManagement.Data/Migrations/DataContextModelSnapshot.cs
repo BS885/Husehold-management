@@ -40,10 +40,10 @@ namespace SmartManagement.Data.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("FixedExpenseAndIncomeId")
+                    b.Property<int?>("FixedExpenseAndIncomeId")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdFile")
+                    b.Property<int?>("IdFile")
                         .HasColumnType("int");
 
                     b.Property<int>("IdUser")
@@ -113,6 +113,9 @@ namespace SmartManagement.Data.Migrations
                     b.Property<string>("FileUrl")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<DateTime>("UploadDate")
                         .HasColumnType("datetime(6)");

@@ -50,12 +50,11 @@ namespace SmartManagement.Api.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register([FromBody] RegisterUserDto user)
+        public IActionResult Register([FromBody] RegisterUserDto userRegister)
         {
             try
-            {
-                // קורא לפונקציה בשירות שמבצע את הרישום
-                _authService.Register(user);
+            { 
+               var user= _authService.Register(userRegister);
 
                 return CreatedAtAction(nameof(Register), new { email = user.Email }, user);
             }
@@ -66,3 +65,4 @@ namespace SmartManagement.Api.Controllers
         }
     }
 }
+    
